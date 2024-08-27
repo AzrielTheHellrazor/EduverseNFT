@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,  
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/CollectionsInfoPage/[address]/[id]/page.jsx", "app/CollectionsInfoPage/[address]/page.jsx", "app/CreateCollection/page.jsx", "app/CreateNFT/page.jsx", "app/NftInfoPage/[id]/page.jsx", "app/ProfilePage/page.jsx", "app/TopCollections/page.jsx", "app/TopNFTs/page.jsx", "app/Header.jsx", "app/layout.jsx", "app/page.jsx", "app/components/CollectionNftCard.jsx", "app/components/NFTCard.jsx", "app/components/NFTCollectionCard.jsx", "app/components/Offers.jsx", "app/connect-provider.jsx"],
+  "exclude": ["node_modules"],
+  "checkJs": false
+  
+}
